@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_profile"
+            android:title="Perfil" />
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/ic_map"
+            android:title="Mapa" />
+        <item
+            android:id="@+id/nav_message"
+            android:icon="@drawable/ic_suport"
+            android:title="Suporte" />
+        <item
+            android:id="@+id/nav_pontos"
+            android:icon="@drawable/ic_pontosfav"
+            android:title="Pontos Favoritos" />
+    </group>
+    <item android:title="Comunicações">
+        <menu>
+            <item
+                android:id="@+id/nav_sobrenos"
+                android:icon="@drawable/ic_sobrenos"
+                android:title="Sobre Nos" />
+            <item
+                android:id="@+id/menuSair"
+                android:icon="@drawable/ic_sair"
+                android:title="Sair"
+                 />
+        </menu>
+    </item>
+</menu>
