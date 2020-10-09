@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">My Bus Guide</string>
+    <string name="telalogin">Acessar Minha Conta</string>
+    <string name="telacadastro">Cadastrar</string>
     <string name="title_activity_maps">Map</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>

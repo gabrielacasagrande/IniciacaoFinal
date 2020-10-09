@@ -1,6 +1,7 @@
 package com.example.mybusguide;
 
 import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.Exclude;
 
 public class Usuario {
 
@@ -44,6 +45,7 @@ public class Usuario {
         this.email = email;
     }
 
+    @Exclude
     public String getSenha() {
         return senha;
     }
