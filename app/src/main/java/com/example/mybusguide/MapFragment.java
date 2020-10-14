@@ -1,5 +1,7 @@
 package com.example.mybusguide;
 
+import android.content.Context;
+import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
 import android.os.Bundle;
@@ -23,7 +25,8 @@ public class MapFragment extends Fragment implements OnMapReadyCallback {
     GoogleMap mMap;
     MapView mMapView;
     View mView;
-    private LocationManager locationManager;
+    private LocationManager Manager;
+    private LocationListener Listener;
 
     @Nullable
     @Override
@@ -54,9 +57,29 @@ public class MapFragment extends Fragment implements OnMapReadyCallback {
         MapsInitializer.initialize(getContext());
         mMap = googleMap;
 
+        //recuperação usuario
+        // recuperarLocalizacaoUsuario();
+
         // Add a marker in Sydney and move the camera
         LatLng sydney = new LatLng(-22.9064, -47.0616);
         mMap.addMarker(new MarkerOptions().position(sydney).title("Campinas"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
     }
+
+   /* public void recuperarLocalizacaoUsuario(){
+
+        Manager = (Manager) this.getSystemService(Context.LOCATION_SERVICE);
+        locationListener = new LocationListener() {
+            @Override
+            public void onLocationChanged(@NonNull Location location) {
+
+                double latitude = location.getLatitude();
+                double longitude = location.getLongitude();
+
+            }
+
+            LocationManager
+        };
+
+    }*/
 }

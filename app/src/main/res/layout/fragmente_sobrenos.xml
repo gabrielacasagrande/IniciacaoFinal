@@ -1,6 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/sobrenos2">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="310dp"
+        android:layout_height="231dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginRight="40dp"
+
+        android:layout_marginBottom="50dp"
+        android:text="Somos um grupo de 4 mulheres de engenharia de computação com o intuito de usar a tecnologia para viabilizar a acessibilidade para deficientes visuais.  Criamos esse aplicativo, sem fins lucrativos, para proporcionar aos usuários a independência de ir e vir sem necessitar de ajuda externa."
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="false"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="false"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="375dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="330dp"
+        android:text="   Lugar de mulher é na tecnologia!!!"
+        android:textColor="@color/color"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="415dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="10dp"
+
+        android:text="Sobre Nós "
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
 
 </RelativeLayout>
